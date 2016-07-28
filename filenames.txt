@@ -1,0 +1,159 @@
+FileName
+NULL
+NULL
+I-35S @ I-35 SB TO I 435 WB FF - First Trimester
+I-35S @ North of I-435 - First Trimerster
+I-35S @ Pflumm Rd - First Trimester
+NULL
+I-35S @ 95th St - First Trimester
+I-35S @ Quivera Rd - First Trimester
+I-35S @ 87th St - First Trimester
+NULL
+I-35S @ HWY 69 - First Trimester
+NULL
+I-35S @ 35SB to 69 SB FF - First Trimester
+I-35S @ HWY 69 - First Trimester
+I-35S @ 75th St - First Trimester
+NULL
+I-35S @ 75th St - First Trimester
+I-35S @ 75th St - First Trimester
+I-35S @ 67th St - First Trimester
+I-35S @ 67th St - First Trimester
+I-35S @ 63rd St/ Shawnee MI
+I-35S @ Johnson Dr -First Trimester
+I-35S @ Antioch Rd - First Trimester
+NULL
+NULL
+I-35S  Antioch Rd - First Trimester
+I-35S @ I-635 - First Trimester
+NULL
+I-35S  AT I-635 - First Trimester
+I-35S @ I-635 to I-35NB FF - First Trimester
+I-35S @ I-35 SB to I-635 NB FF - First Trimester 
+I-35S @ Lamar Ave - First Trimester
+NULL
+I-35S @ North of 18 st exp - First Trimester
+I-35S @ North or Roe Ave - First Trimester
+I-35S @ North of Mill St - First Trimester
+I-35S @ Mission Rd - First Trimester
+I-35S @ 7th Street + RFWY - First Trimester
+I-35S @ Cambridge Circle - First Trimester
+FileName
+NULL
+NULL
+I-35S @ I-35 SB TO I 435 WB FF - Second Trimester
+I-35S @ North of I-435 - Second Trimester
+I-35S @ Pflumm Rd - Second Trimester
+NULL
+I-35S @ 95th St - Second Trimester
+I-35S @ Quivera Rd - Second Trimester
+I-35S @ 87th St - Second Semester
+NULL
+I-35S @ HWY 69 - Second Trimester
+NULL
+I-35S @ 35SB to 69 SB FF - Second Trimester
+I-35S @ HWY 69 - Second Trimester
+I-35S @ 75th St - Second Trimester
+NULL
+I-35S @ 75th St - Second Trimester
+I-35S @ 75th St - Second Trimester
+I-35S @ 67th St - Second Trimester
+I-35S @ 67th St - Second Trimester
+I-35S @ 63rd St/ Shawnee MI - Second Trimester
+I-35S @ Antioch Rd - Second Trimester
+NULL
+NULL
+I-35S  Antioch Rd - Second Trimester
+I-35S @ I-635 - Second Trimester
+NULL
+I-35S  AT I-635 -  Second Trimester
+I-35S @ I-635 to I-35NB FF - Second Trimester
+I-35S @ I-35 SB to I-635 NB FF - Second Trimester
+I-35S @ Lamar Ave - Second Trimester
+NULL
+I-35S @ North of 18 st exp - Second Trimester
+I-35S @ North or Roe Ave - Second Trimester
+I-35S @ North of Mill St - Second Trimeseter
+I-35S @ Mission Rd - Second Trimester
+I-35S @ 7th Street + RFWY - Second Trimester
+I-35S @ Cambridge Circle - Second Trimester
+FileName
+NULL
+NULL
+I-35S @ I-35 SB TO I 435 WB FF - Third Trimester
+I-35S @ North of I-435 - Third Trimester
+I-35S @ Pflumm Rd - Third Trimester
+NULL
+I-35S @ 95th St - First Trimester
+I-35S @ Quivera Rd - Third Trimester
+I-35S @ 87th St - Third Trimester
+NULL
+I-35S @ HWY 69 - Third Trimester
+NULL
+I-35S @ 35SB to 69 SB FF - Third Trimester
+I-35S @ HWY 69 - Third Trimester
+I-35S @ 75th St -Third Trimester
+NULL
+I-35S @ 75th St - Third Trimester
+I-35S @ 75th St - Third Trimester
+I-35S @ 67th St - Third Trimester
+I-35S @ 67th St - Third Trimester
+I-35S @ 63rd St/ Shawnee MI - Third Trimester
+I-35S @ Johnson Dr - Third Trimester
+I-35S @ Antioch Rd - Third Trimester
+NULL
+NULL
+I-35S  Antioch Rd - Third Trimester
+I-35S @ I-635 - Third Trimester
+NULL
+I-35S  AT I-635 - Third Trimester
+I-35S @ I-635 to I-35NB FF - Third Trimester
+I-35S @ I-35 SB to I-635 NB FF - Third Trimester
+I-35S @ Lamar Ave - Third Trimester
+NULL
+I-35S @ North of 18 st exp - Third Trimester
+I-35S @ North or Roe Ave - Third Trimester
+I-35S @ North of Mill St - Third Trimester
+I-35S @ Mission Rd - Third Trimester
+I-35S @ 7th Street + RFWY - Third Trimester
+I-35S @ Cambridge Circle - Third Trimester
+FileName
+NULL
+NULL
+I-35S @ I-35 SB TO I 435 WB FF - Fourth Trimester
+I-35S @ North of I-435 - Fourth Trimester
+I-35S @ Pflumm Rd - Fourth Trimester
+NULL
+I-35S @ 95th St - Fourth Trimester
+I-35S @ Quivera Rd - Fourth Trimester
+I-35S @ 87th St - Fourth Trimerster
+NULL
+I-35S @ HWY 69 - Fourth Trimester
+NULL
+I-35S @ 35SB to 69 SB FF - Fourth Trimester
+I-35S @ HWY 69 - Fourth Trimester
+I-35S @ 75th St - Fourth Trimester
+NULL
+I-35S @ 75th St - Fourth Trimester
+I-35S @ 75th St - Fourth Trimester
+I-35S @ 67th St - Fourth Trimester
+I-35S @ 67th St - Fourth Trimester
+I-35S @ 63rd St/ Shawnee MI - Fourth Trimester
+I-35S @ Johnson Dr - Fourth Trimester
+I-35S @ Antioch Rd - Fourth Trimester
+NULL
+NULL
+I-35S  Antioch Rd - Fourth Trimester
+I-35S @ I-635 - Fourth Trimester
+NULL
+I-35S  AT I-635 - Fourth Trimester
+I-35S @ I-635 to I-35NB FF - Foruth Trimester
+I-35S @ I-35 SB to I-635 NB FF - Fourth Trimester
+I-35S @ Lamar Ave - Fourth Trimester
+NULL
+I-35S @ North of 18 st exp - Fourth Trimester
+I-35S @ North or Roe Ave - Fourth Trimester
+I-35S @ North of Mill St - Fourth Trimester
+I-35S @ Mission Rd - Fourth Trimester
+I-35S @ 7th Street + RFWY - Fourth Trimester
+I-35S @ Cambridge Circle - Fourth Trimester
