@@ -1,11 +1,11 @@
 import FileNameReading, Parsing, Structure, Functions, Clean
 
+# dictionary that contains all the filenames
 filenames = FileNameReading.get_file_names()
 
 all_sensors = []
 
-
-for i in filenames:
+for i in filenames.keys():
     current_sensor = []
     data = Parsing.parse(i)
     print("Current file being read is " + i)
@@ -13,7 +13,6 @@ for i in filenames:
     for row in data:
         current_sensor.append(row)
     all_sensors.append(current_sensor)
-
 
 #yearData = []
 #start = 0
