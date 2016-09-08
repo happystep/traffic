@@ -1,4 +1,4 @@
-import FileNameReading, Parsing, Structure, Functions
+import FileNameReading, Parsing, Structure, Functions, Clean
 
 filenames = FileNameReading.get_file_names()
 
@@ -9,23 +9,25 @@ for i in filenames:
     current_sensor = []
     data = Parsing.parse(i)
     print("Current file being read is " + i)
+    data = Clean.remove_empty(data)
     for row in data:
         current_sensor.append(row)
     all_sensors.append(current_sensor)
 
-yearData = []
-start = 0
-end = 288
+
+#yearData = []
+#start = 0
+#end = 288
 # 2012 was a leap year so it had 366 days, so that will be our loop
-for x in range(0, 366):
+#for x in range(0, 366):
 
-    now = Functions.LoopDay(start, end, all_sensors)
-    start = end +1
-    end = end + 288
-    yearData.append(now)
+#   now = Functions.LoopDay(start, end, all_sensors)
+#    start = end +1
+#    end = end + 288
+#    yearData.append(now)
 
-for n in yearData:
-    print(n)
+#for n in yearData:
+#    print(n)
 
 
 

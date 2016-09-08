@@ -1,4 +1,4 @@
-def LoopDay(a, b, c):
+def loop_day(a, b, c):
     currentDict = {}
     firstDay = []
     for x in range(a, b):
