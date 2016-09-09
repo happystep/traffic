@@ -1,4 +1,4 @@
-# function to get all of the files names for testing southbound data.
+# function to get all of the files names, returns a dictionary
 def get_file_names():
     f = open("filenames.txt", "r")
 
@@ -6,14 +6,19 @@ def get_file_names():
 
     l = t.split('\n')
 
-    files = []
+    sensor_names = {}
+    count = 0;
 
-    for x in l:
-        if x == 'NULL':
+    for name in l:
+        if name == 'NULL':
             continue
-        elif x == 'FileName':
+        elif name == 'FileName':
             continue
         else:
-            files.append(x)
-    return files
+            sensor_names[name] = count
+            count +=  1
+
+    return sensor_names
+
+
 
