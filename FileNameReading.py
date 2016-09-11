@@ -1,6 +1,7 @@
 # function to get all of the files names, returns a dictionary
 def get_file_names():
-    f = open("filenames.txt", "r")
+    # two options, all_sensors.txt or some_sensors.txt
+    f = open("some_sensors.txt", "r")
 
     t = f.read()
 
@@ -16,7 +17,7 @@ def get_file_names():
             continue
         else:
             sensor_names[name] = count
-            count +=  1
+            count += 1
 
     return sensor_names
 
