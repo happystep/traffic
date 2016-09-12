@@ -1,5 +1,6 @@
 import FileNameReading, Parsing, Structure, Functions, Clean
-
+import matplotlib.pyplot as plt
+import datetime
 
 
 # dictionary that contains all the filenames
@@ -13,8 +14,16 @@ for i in filenames.keys():
     print("Current file being read is " + i)
     data = Clean.remove_empty(data)
     for row in data:
+        for k, v in row.items():
+            if k == "timestamp":
+                row[k] = (v, str(v))
         current_sensor.append(row)
+        datetime.datetime.strptime()
     all_sensors.append(current_sensor)
+
+classmethod datetime.strptime(date_string, format)
+# Return a datetime corresponding to date_string, parsed according to format. This is equivalent to datetime(*(time.strptime(date_string, format)[0:6])). ValueError is raised if the date_string and format can’t be parsed by time.strptime() or if it returns a value which isn’t a time tuple. For a complete list of formatting directives, see section strftime() and strptime() Behavior.
+
 
 #yearData = []
 #start = 0
@@ -29,6 +38,8 @@ for i in filenames.keys():
 
 #for n in yearData:
 #    print(n)
+
+
 
 
 
