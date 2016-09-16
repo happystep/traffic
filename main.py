@@ -1,6 +1,7 @@
 import FileNameReading, Parsing, Structure, Functions, Clean
 import matplotlib.pyplot as plt
 import datetime
+import numpy as np
 
 
 # dictionary that contains all the filenames
@@ -15,13 +16,40 @@ for i in filenames.keys():
     data = Clean.remove_empty(data)
     for row in data:
         for k, v in row.items():
-            if k == "timestamp":
-                row[k] = (v, str(v))
+            if k == "Timestamp":
+                line = row[k].split(' ')
+                second_value = line[1].split('A') or line[1].split('P')
+                row[k] = ((line[0]), (second_value[0]))
+                # row[k] = (v, str(v))
         current_sensor.append(row)
-        datetime.datetime.strptime()
+        # datetime.datetime.strptime()
     all_sensors.append(current_sensor)
 
-classmethod datetime.strptime(date_string, format)
+# print(all_sensors)
+
+x = []
+y = []
+
+a_list = all_sensors[0]
+
+for a_dict in a_list:
+    for key, value in a_dict.items():
+        if key == "Timestamp":
+            line = value[1].split(':')
+            newline = line[0] + line[1]
+            x.append(int(newline))
+        elif key == "VPH":
+            y.append(int(value))
+for interater in range (0, 46):
+    y.append(0)
+x_new  = np.asarray(x)
+y_new = np.asarray(y)
+
+plt.plot(x_new, y_new)
+plt.show()
+
+
+# classmethod datetime.strptime(date_string, format)
 # Return a datetime corresponding to date_string, parsed according to format. This is equivalent to datetime(*(time.strptime(date_string, format)[0:6])). ValueError is raised if the date_string and format can’t be parsed by time.strptime() or if it returns a value which isn’t a time tuple. For a complete list of formatting directives, see section strftime() and strptime() Behavior.
 
 
