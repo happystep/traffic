@@ -11,6 +11,7 @@ all_sensors = []
 
 for i in filenames.keys():
     current_sensor = []
+
     data = Parsing.parse(i)
     print("Current file being read is " + i)
     data = Clean.remove_empty(data)
@@ -40,12 +41,18 @@ for a_dict in a_list:
             x.append(int(newline))
         elif key == "VPH":
             y.append(int(value))
-for interater in range (0, 46):
-    y.append(0)
+
+difference = len(x) - len(y)
+if difference != 0:
+    for dummyvalue in range(0, difference + 1):
+        y.append(-1)
+
+
 x_new  = np.asarray(x)
 y_new = np.asarray(y)
 
 plt.plot(x_new, y_new)
+#plt.plot(x,y);
 plt.show()
 
 
