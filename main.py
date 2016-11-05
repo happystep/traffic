@@ -53,7 +53,9 @@ y_new = np.asarray(y)
 
 plt.plot(x_new, y_new)
 #plt.plot(x,y);
-plt.show()
+#plt.show()
+
+
 
 
 # classmethod datetime.strptime(date_string, format)
